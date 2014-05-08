@@ -174,25 +174,25 @@
           <div class="row">
 
             <div class="col-md-5 col-sm-5 ">
-              <select class="custom-select">
+              <select id="company" class="custom-select" required>
                 <option>Başvurum Bireysel/Kurumsal ?</option>
-                <option>hello</option>
+                <option selected>hello</option>
                 <option>world</option>
               </select>
-              <input class="form-control" type="text" placeholder="Email"/>
-              <select class="custom-select">
+              <input id="email" value="abc@gmail.com" class="form-control" type="email" name="email" placeholder="Email" required/>
+              <select id="project" class="custom-select">
                 <option>Projenizi Nasıl Tanımlarsınız ?</option>
-                <option>hello</option>
+                <option selected>hello</option>
                 <option>world</option>
               </select>
             </div>
 
             <div class="col-md-5  col-sm-5 pull-right" >
-              <input class="form-control" type="text" placeholder="Ad Soyad"/>
-              <input class="form-control" type="text" placeholder="Proje Adı"/>
-              <select class="custom-select">
+              <input id="name" value="abcs" class="form-control" type="text" placeholder="Ad Soyad"/>
+              <input id="projectname" value="abcs" class="form-control" type="text" placeholder="Proje Adı"/>
+              <select id="platform" class="custom-select">
                 <option>Platform</option>
-                <option>iOS</option>
+                <option selected>iOS</option>
                 <option>windows</option>
                 <option>android</option>
               </select>
@@ -201,11 +201,11 @@
 
           <div class="row">
             <div class="col-md-12">
-              <textarea class="form-control custome-textarea" placeholder="Fikrinizin içeriğinden bahsetmeden uygulama işleyişi hakında bilgi veriniz"></textarea>
+              <textarea id="desc" class="form-control custome-textarea" placeholder="Fikrinizin içeriğinden bahsetmeden uygulama işleyişi hakında bilgi veriniz" required>Hello world</textarea>
             </div>
           </div>
           
-            <button class="contact-submit">START</button>
+            <button type="submit" name="submit" class="contact-submit">START</button>
           
         </form>
       </div>
