@@ -3,6 +3,7 @@
   <head>
     <title>home | codfabrik</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <META HTTP-EQUIV="Content-language" CONTENT="tr">
     <!-- Bootstrap -->
@@ -10,6 +11,8 @@
     <link href="assets/css/main.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/GothamNarrow-Black/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/GothamNarrow-Book/style.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../../assets/js/html5shiv.js"></script>
@@ -19,15 +22,40 @@
   <body id="home">
     <!-- <h1>Hello, world!</h1> -->
     <style type="text/css">
-
     </style>
+
     <header>
-      <nav>
-      </nav>
+      <div class="container">
+        <div class="logo">
+          
+          <div class="logo-icon"></div>
+          <span class="logo-name">
+            cod<span class="fabrik">fabrik</span>
+          </span>
+        </div>
+        
+        <nav class="nav">
+          <ul>
+            <li>
+              <a href="#intro-banner">
+                <img src="assets/img/black-like-btn.png">
+              </a>
+            </li>
+            <li>
+              <a href="#services">
+                <img src="assets/img/black-like-btn.png">
+              </a>
+            </li>
+            <li>
+              <a href="#contact">
+                <img src="assets/img/black-like-btn.png">
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <style type="text/css">
 
-    </style>
     <section id="intro-banner" class="center-tringle bg-color01-border bg-color01">
       <div class="container">
         <div class="row">
@@ -59,40 +87,12 @@
           </div>
         </div>
       </div>
+      <div class="center-triangle-div bg-color01-border"></div>
     </section>
-    <style type="text/css">
-      .service-1 + h3{
-        color: #3faa96;
-      }
-      .service-2 + h3{
-        color: #f39943;
-      }
-      .service-3 + h3{
-        color: #dd574b;
-      }
-      .service-4 + h3{
-        color: #cb5a7c;
-      }
-      .service-5 + h3{
-        color: #dd574b;
-      }
-      .service-6 + h3{
-        color: #f39943;
-      }
-      #services h2{
-        margin-top: 30px;
-      }
-      .service-icon + h3{
-        font-size: 27px;
-      }
-      .service-icon + h3 + p {
-      color: #9C9C9C;
-      font-family: 'lato',sans-serif;
-      font-weight: bold;
-      font-size: 15px;
-      }
 
+    <style type="text/css">
     </style>
+
     <section id="services" class="center-tringle bg-color02 bg-color02-border">
       <div class="container text-center">
         <h2>NE SUNUYORUZ ?</h2>
@@ -157,41 +157,51 @@
           </div>
         </div>
       </div>
+      <div class="center-triangle-div bg-color02-border"></div>
     </section>
+
     <style type="text/css">
       #contact h2 {
         color: white;
         margin-bottom: 40px;
       }
     </style>
+
     <section id="contact" class="bg-color03">
       <div class="container text-center ">
         <h2>BUGÜN BAŞLAYIN</h2>
         <form id="contact-form">
           <div class="row">
+
             <div class="col-md-5 col-sm-5 ">
               <select class="custom-select">
+                <option>Başvurum Bireysel/Kurumsal ?</option>
                 <option>hello</option>
                 <option>world</option>
               </select>
-              <input class="form-control" type="text" placeholder="Ad Soyad"/>
+              <input class="form-control" type="text" placeholder="Email"/>
               <select class="custom-select">
+                <option>Projenizi Nasıl Tanımlarsınız ?</option>
                 <option>hello</option>
                 <option>world</option>
               </select>
             </div>
+
             <div class="col-md-5  col-sm-5 pull-right" >
               <input class="form-control" type="text" placeholder="Ad Soyad"/>
-              <input class="form-control" type="text" placeholder="name "/>
+              <input class="form-control" type="text" placeholder="Proje Adı"/>
               <select class="custom-select">
-                <option>hello</option>
-                <option>world</option>
+                <option>Platform</option>
+                <option>iOS</option>
+                <option>windows</option>
+                <option>android</option>
               </select>
             </div>
           </div>
+
           <div class="row">
             <div class="col-md-12">
-              <textarea class="form-control custome-textarea"></textarea>
+              <textarea class="form-control custome-textarea" placeholder="Fikrinizin içeriğinden bahsetmeden uygulama işleyişi hakında bilgi veriniz"></textarea>
             </div>
           </div>
           
@@ -200,6 +210,7 @@
         </form>
       </div>
     </section>  
+
     <style type="text/css">
       footer{
         background-color: #1d3d65;
@@ -207,6 +218,7 @@
         height: 80px;
       }
     </style>
+
     <footer>  
       <div class="container">
         <div class="row">
