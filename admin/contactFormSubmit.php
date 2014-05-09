@@ -1,13 +1,3 @@
-<pre>
-	<?php  
-		print_r($_POST);
-	// echo "hello";
-
-
-	?>
-
-</pre>
-
 <?php  
 
 	$company = $_POST["company"];

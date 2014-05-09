@@ -300,6 +300,7 @@ font-size: 15px;
 }
 .logo img{
   vertical-align: baseline;
+  width: 190px;
 }
 .logo-icon{
   background: url(../img/logo-icon.svg) center center no-repeat;

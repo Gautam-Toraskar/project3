@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <link rel="stylesheet" type="text/css" href="assets/fonts/GothamNarrow-Black/style.css">
     <link rel="stylesheet" type="text/css" href="assets/fonts/GothamNarrow-Book/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/ProximaNova-Light/style.css">
     <link rel="stylesheet" type="text/css" href="assets/packages/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/packages/font-awesome/assets/css/font-awesome-ie7.min.css">
     <link rel="stylesheet" type="text/css" href="assets/packages/font-awesome/assets/css/admin/editor_styles.css">
@@ -44,9 +45,10 @@
         <div class="logo">
           
           <div class="logo-icon"></div>
-          <span class="logo-name">
+          <img src="assets/img/codfabrik.svg">
+<!--           <span class="logo-name">
             cod<span class="fabrik">fabrik</span>
-          </span>
+          </span> -->
         </div>
         
         <nav class="nav">
@@ -503,6 +505,7 @@
           <div class="row stage-1">
             <div class="col-md-6">
               <h3>Get in touch</h3>
+
               <h5> <a href="#">mutt@codfabrik.com</a> </h5>
             </div>
             <div class="col-md-6 text-center pull-right">
