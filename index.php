@@ -13,7 +13,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <link rel="stylesheet" type="text/css" href="assets/fonts/GothamNarrow-Black/style.css">
     <link rel="stylesheet" type="text/css" href="assets/fonts/GothamNarrow-Book/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/fonts/ProximaNova-Light/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/fonts/ProximaNova-Light/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/proxima-nova-light/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="assets/packages/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/packages/font-awesome/assets/css/font-awesome-ie7.min.css">
     <link rel="stylesheet" type="text/css" href="assets/packages/font-awesome/assets/css/admin/editor_styles.css">
@@ -107,7 +108,7 @@
           </div>
         </div>
       </div>
-      <div class="center-triangle-div bg-color01-border"></div>
+      <!-- <div class="center-triangle-div bg-color01-border"></div> -->
     </section>
 
     <style type="text/css">
@@ -177,7 +178,7 @@
           </div>
         </div>
       </div>
-      <div class="center-triangle-div bg-color02-border"></div>
+      <!-- <div class="center-triangle-div bg-color02-border"></div> -->
     </section>
 
     <style type="text/css">
@@ -413,43 +414,18 @@
         margin: 0;
         /*height: 80px;*/
       }
-      .stage-2 p{
-        /*padding-left: 10px;*/
-        font-size: 12px;
-      }
+
       .stage-1 h2{
         font-family: 'GothamNarrow-Book';
         font-weight: bold;
       }
       .stage-1 h5 a{
-        color: white;
-        font-family: 'lato';
+        /*color: white;*/
+        /*font-family: 'lato';*/
+        font-size: 16px;
       }
-      ul.footer-nav{
-        margin-top: 10px;
-        margin-bottom: 20px;
-        overflow: hidden;
-      }
-      ul.footer-nav li{
-        float: left;
-        margin-right: 5px;
-        padding-right: 5px;
-        font-size: 12px;
-        border-right: 1px solid white;
-      }
-      ul.footer-nav li a{
-        text-decoration: none;
-        font-size: 13px;
-        font-family: lato;
-        color: rgb(185, 185, 185);
-        transition: color 0.2s ease-in-out;
-        -webkit-transition: color 0.2s ease-in-out;
-      }
-      ul.footer-nav li a:hover{
-        color: white;
-      }
-      ul.footer-nav li:last-child{
-        border-right: none;
+      .stage-1 h5 a:hover{
+        color: rgb(238, 107, 73);
       }
       .pull-right p{
         text-align: right;
@@ -467,35 +443,75 @@
         position: relative;
         bottom: 0;
       }
-/*      footer .icon-twitter{
-        color: #4099FF;
-      }*/
       footer .icon-twitter:hover{
         color: #4099FF;
         bottom: 4px;
       }
-/*      footer .icon-facebook{
-        color: #3b5998;
-      }*/
+
       footer .icon-facebook:hover{
         color: #3b5998;
         bottom: 4px;
       }
-      footer .tw-follow{
-        margin-top: 10px;
-      }
-      footer .fb-like{
-        height: 22px;
-        width: 51px;
-        margin-top: 10px;
-        margin-right: 10px;
-      }
       .footer-container + .footer-container{  
-        background-color: #152F4E;
+        background-color: #333333;
         padding-top: 20px;
       }
-      .helixtech{
-        color: #afcd47;
+
+      .prox {
+        font-family: "proxima-nova",sans-serif;
+        font-style: normal;
+        font-weight: 700 !important;
+        font-size: 18px;
+      }
+      .txtorange {
+        color: rgb(238, 107, 73);
+      }
+      .txtgreen{
+        color: rgb(26, 188, 156);
+      }
+      .txtwhite{
+        color: #fff;
+      }
+      .proxlight {
+        font-family: 'proxima_novalight',sans-serif;
+        font-style: normal;
+        font-weight: 100;
+      }
+      .stage-2 p{
+        font-size: 16px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 300;
+        line-height: 75.19999694824219px;
+        font-family: 'proxima_novalight',sans-serif;
+        /*font-family: 'ProximaNova-Light'*/
+        color: rgba(255, 255, 255, 0.6);
+      }
+      .stage-2 p a{
+        color: #1abc9c;
+        margin-left: 3px;
+      }
+      .text-right{
+        text-align: right;
+      }
+      .stage-2 p a.helixtech{
+        margin-left: 3px;
+        color: rgba(255, 255, 255, 0.6);
+        -moz-transition: all 0.15s ease;
+        -o-transition: all 0.15s ease;
+        transition: all 0.15s ease;
+        font-family: 'lato',sans-serif;
+        line-height: 71px;
+        font-weight: 300;
+        /*font-weight: bold;*/
+        font-size: 20px;
+      }
+      .stage-2 p a.helixtech:hover{
+        opacity: 1;
+        color: white;
+      }
+      .footer-container{
+        background-color: #404040;
       }
     </style>
 
@@ -504,13 +520,13 @@
         <div class="container">
           <div class="row stage-1">
             <div class="col-md-6">
-              <h3>Get in touch</h3>
+              <h3 class="prox txtgreen">Get in touch</h3>
 
-              <h5> <a href="#">mutt@codfabrik.com</a> </h5>
+              <h5> <a class="proxlight" href="#">mert@codfabrik.com</a> </h5>
             </div>
             <div class="col-md-6 text-center pull-right">
-              <span class="icon-facebook pull-right"></span>
               <span class="icon-twitter pull-right"></span>
+              <span class="icon-facebook pull-right"></span>
             </div>
           </div>
         </div>
@@ -519,23 +535,17 @@
         <div class="container">
           <div class="row stage-2">
             <div class="col-md-6">
-              <p>&copy; Codfabik</p>
-              <p>All Rights Reserved</p>
-              <ul class="footer-nav">
-                <li> <a href="#">Terms and conditions</a> </li>
-                <li> <a href="#">Privacy Policy</a> </li>
-              </ul>
+              <p>&copy; 2014 Codfabik. All rights reserved. 
+                <a rel="external" href="/terms-of-use" target="_blank">Terms of Use </a>and <a href="privacy-policy">Privacy Policy</a> 
+              </p>
             </div>
-            <div class="col-md-6 pull-right">
-              <p>codfabrik is a mobile solutions Platform powered by <span class="helixtech"><a href="http://helixtech.co">Helix Tech</a></span></p>
-              <div class="clearfix" style="margin-bottom: 10px;"></div>
-              <div class="tw-follow pull-right">
-                <a href="https://twitter.com/codfabrik" class="twitter-follow-button" data-show-count="false">Follow @codfabrik</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-              </div>
-              <div class="fb-like pull-right">
-                <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fcodfabrik&amp;width&amp;layout=button&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:35px;" allowTransparency="true"></iframe>
-              </div>
+            <div class="col-md-6">
+              <p class="text-right">
+                Developed by <a class="pull-right helixtech" href="http://helixtech.co" >
+                Helix Tech
+              </a>
+              </p>
+              
             </div>
           </div>
         </div>

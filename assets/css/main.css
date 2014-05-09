@@ -18,7 +18,7 @@ a,a:hover,a:active{
   color: inherit;
 }
 .bg-color01{
-  background-color: #ff4c3e;
+  background-color: rgb(238, 107, 73);
 }
 
 section#intro-banner{
@@ -158,10 +158,10 @@ section#services{
 }
 
 .bg-color03{
-  background-color: #3ef161;
+  background-color: #1abc9c;
 }
 .bg-color03-border:after{
-  border-top-color: #3ef161;
+  border-top-color: #1abc9c;
 }
 section#contact{
   padding: 20px 0;
