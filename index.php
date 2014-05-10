@@ -434,8 +434,8 @@
         font-family: 'lato',sans-serif;
       }
       .icon-facebook,.icon-twitter{
-        font-size: 40px;
-        margin: 20px;
+        font-size: 26px;
+        margin: 25px 10px;
         width: 24px;
         cursor: pointer;
         transition: all 0.2s ease-in-out;
@@ -513,33 +513,42 @@
       .footer-container{
         background-color: #404040;
       }
+      .social-div{
+        overflow: hidden;
+      }
+      .stage-2 h5 a{
+        
+      }
     </style>
 
     <footer>  
-      <div class="footer-container">
+<!--       <div class="footer-container">
         <div class="container">
           <div class="row stage-1">
             <div class="col-md-6">
-              <h3 class="prox txtgreen">Get in touch</h3>
-
-              <h5> <a class="proxlight" href="#">mert@codfabrik.com</a> </h5>
+              
             </div>
             <div class="col-md-6 text-center pull-right">
-              <span class="icon-twitter pull-right"></span>
-              <span class="icon-facebook pull-right"></span>
+              
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="footer-container">
         <div class="container">
           <div class="row stage-2">
             <div class="col-md-6">
+              <h3 class="prox txtgreen">Get in touch</h3>
+              <h5> <a class="proxlight" href="#">mert@codfabrik.com</a> </h5>
               <p>&copy; 2014 Codfabik. All rights reserved. 
                 <a rel="external" href="/terms-of-use" target="_blank">Terms of Use </a>and <a href="privacy-policy">Privacy Policy</a> 
               </p>
             </div>
             <div class="col-md-6">
+             <div class="social-div">
+              <span class="icon-twitter pull-right"></span>
+              <span class="icon-facebook pull-right"></span>
+             </div>
               <p class="text-right">
                 Developed by <a class="pull-right helixtech" href="http://helixtech.co" >
                 Helix Tech
