@@ -2,7 +2,7 @@
   <div class="footer-container">
     <div class="container">
       <div class="row stage-2">
-        <div class="col-md-12 social-div">
+        <div class="social-div">
           <h3 class="prox txtgreen">Temasa</h3>
           <h5> <a class="proxlight" href="mailto:mert@codfabrik.com"><i class="icon-envelope-alt"></i> mert@codfabrik.com</a> </h5>
           <a href="https://www.facebook.com/codfabrik" target="_blank" style="margin-top: 27px;overflow:hidden;">
