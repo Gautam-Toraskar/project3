@@ -1,3 +1,8 @@
+@media only screen and (min-width:	1199px){
+	.tablet-show{
+		display: none;
+	}
+}
 @media only screen and (max-width:	1199px){
 	.service-icon + h3 + p br{
 	  display: none;
@@ -6,10 +11,41 @@
 		padding: 0 15px;
 		margin-bottom: 20px;
 	}
+	.stage-2 p a.helixtech{
+		/*float: none!important;*/
+		line-height: 27px;
+	}
+	.stage-2 p{
+		/*text-align: left;*/
+		/*float: none!important;*/
+		line-height: 33px;
+		margin: 10px 0;
+	}
+	.tablet-show{
+		display: block;
+	}
 }
 @media only screen and (max-width: 992px){
 	.iphone{
 		display: none;
+	}
+	.stage-2 p{
+		text-align: left;
+		float: none!important;
+	}
+	.stage-2 p a.helixtech{
+		float: none!important;
+		line-height: 20px;
+	}
+	.logo-icon{
+		width: 58px;
+		height: 53px;
+		top: 8px;
+		background-size: 104px;
+	}
+
+	.logo img{
+		width: 120px;
 	}
 }
 
@@ -17,9 +53,106 @@
 	.service-block{
 		padding: 0 15px;
 	}
+	.nav ul li a h3{
+		font-size: 20px;
+	}
+	.stage-2 p{
+
+	}
+	.tablet-show{
+		display: none;
+	}
 }	
+
+@media only screen and (min-width: 767px){
+	.menu{
+		display: none;
+	}
+	a[href='#menu']{
+		display: none;
+	}
+
+}
 @media only screen and (max-width: 767px){
+	.tablet-show{
+		display: none;
+	}
 	#contact-form .pull-right{
 		float: none!important;
+	}
+	.nav{
+		display: none;
+	}
+	.menu{
+		display: block;
+	}
+	a[href='#menu']{
+		display: block;
+	}
+	.logo{
+		float: right;
+	}
+/*	nav#menu{
+		display: block;
+	}*/
+	header{
+		height: 65px;
+	}
+	section#intro-banner {
+		padding-top: 65px;	
+	}
+	.logo-icon {
+		width: 48px;
+		height: 47px;
+		top: 8px;
+		background-size: 86px;
+	}
+}
+
+@media only screen and (max-width: 485px){
+	section#intro-banner h1 {
+	font-size: 45px;
+	}
+	section#intro-banner h2{
+		font-size: 26px;
+	}
+	h4{
+		font-size: 16px;
+	}
+	.trial-rates {
+		margin: 5px;
+		width: 100%;
+		padding: 10px;
+		max-width: 308px;
+	}
+	.trial-rates .rate {
+		width: 100%;
+		max-width: 90px;
+	}
+	.trial-rates .rate .dollar {
+		font-size: 23px;
+	}
+	.trial-rates .rate .amt {
+		font-size: 50px;
+	}
+	.trial-rates .currency {
+		float: right;
+		height: 65px;
+	}
+	.trial-rates .currency h3 {
+		font-size: 20px;
+	}
+	.tablet-show{
+		display: block;
+	}
+	footer span.icon-twitter{
+		left: -10px;
+		margin-right: 0;
+	}
+	.stage-2 p {
+		line-height: 18px;
+	}
+	.fb-like-share {
+		right: 0px;
 	}
 }
