@@ -12,17 +12,19 @@
 		margin-bottom: 20px;
 	}
 	.stage-2 p a.helixtech{
-		/*float: none!important;*/
-		line-height: 27px;
+		line-height: 18px;
 	}
 	.stage-2 p{
-		/*text-align: left;*/
-		/*float: none!important;*/
-		line-height: 33px;
-		margin: 10px 0;
+		line-height: 25px;
+		margin: 5px 0;
 	}
 	.tablet-show{
 		display: block;
+	}
+	.social-div .reserved-text{
+	  margin-top: 20px;
+	  overflow: hidden;
+	  clear: both;
 	}
 }
 @media only screen and (max-width: 992px){
@@ -47,6 +49,7 @@
 	.logo img{
 		width: 120px;
 	}
+
 }
 
 @media only screen and (max-width: 992px ) and (min-width: 768px){
@@ -92,9 +95,6 @@
 	.logo{
 		float: right;
 	}
-/*	nav#menu{
-		display: block;
-	}*/
 	header{
 		height: 65px;
 	}
@@ -107,9 +107,18 @@
 		top: 8px;
 		background-size: 86px;
 	}
+	.stage-2 p a.helixtech{
+		color: white;
+	}
 }
 
 @media only screen and (max-width: 485px){
+	.social-div .reserved-text{
+	  margin-top: 0px;
+	  overflow: hidden;
+	  clear: both;
+	}
+
 	section#intro-banner h1 {
 	font-size: 45px;
 	}
@@ -156,7 +165,7 @@
 	.fb-like-share {
 		right: 0px;
 	}
-	/*final footer*/
+
 	.social-div h5{
 		margin: 15px 0;
 		margin-top: -5px;

@@ -35,7 +35,7 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row reserved-text">
             <div class="col-md-6">
               <p>&copy; 2014 Codfabik. All rights reserved. 
                 <a rel="external" href="TermsOfServices.php" target="_blank"> <br class="tablet-show"> Terms of Use </a>and <a target="_blank" href="PrivacyPolicy.php">Privacy Policy</a> 

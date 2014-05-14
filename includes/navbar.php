@@ -9,7 +9,7 @@
         overflow: hidden;
         height: 31px;
         width: 31px;
-        margin: 16px;
+        margin-top: 18px;
         float: left;
       }
     </style>

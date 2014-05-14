@@ -11,9 +11,11 @@
 <link rel="stylesheet" type="text/css" href="assets/fonts/GothamNarrow-Black/style.css">
 <link rel="stylesheet" type="text/css" href="assets/fonts/GothamNarrow-Book/style.css">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=Open+Sans Condensed:300italic,300,700" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans Condensed:300italic,300,700" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="assets/fonts/proxima-nova.js"></script>
 <link rel="stylesheet" type="text/css" href="assets/fonts/proxima-nova.css"/>
+<link rel="stylesheet" type="text/css" href="assets/fonts/Avenir-LT-W01-45-Book/avenir-LT.css">
+
 <!-- <link rel="stylesheet" type="text/css" href="assets/fonts/ProximaNova-Light/style.css"> -->
 <link rel="stylesheet" type="text/css" href="assets/fonts/proxima-nova-light/stylesheet.css">
 <link rel="stylesheet" type="text/css" href="assets/packages/font-awesome/css/font-awesome.min.css">

@@ -31,6 +31,8 @@ section#intro-banner .container{
 section#intro-banner h1{
   font-size: 50px;
   /*margin-top: 40px;*/
+  font-family: 'proxima-nova';
+  font-weight: 600;
 }
 ul{
   padding: 0;
@@ -312,6 +314,8 @@ section h2{
   margin-top: 50px;
   margin-bottom: 19px;
   font-size: 40px;
+  font-family: 'proxima-nova'!important;
+  font-weight: 600!important;
 }
 section#intro-banner h2{
   font-size: 30px;
@@ -721,3 +725,4 @@ section#content a.link:hover{
   -moz-transition:color 0.3s ease-in-out;
   color:orange;
 }
+
