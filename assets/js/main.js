@@ -30,13 +30,13 @@ function scrollToDiv(id){
    return false;
 }
 
-$('body#home .nav ul li a, a.down-arrow').click(function(){
+$('body#home .nav ul li a, a.down-arrow').click(function(event){
 	event.preventDefault();
 	scrollToDiv($(this).attr('href')+"");
 	return false;
 });
 
-$("#contact-form").submit(function(){
+$("#contact-form").submit(function(event){
 	event.preventDefault();
 
 	// var formdata = new FormData($(this)[0]);

@@ -237,6 +237,7 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/packages/mm-navbar/jquery.mmenu.min.all.js"></script>

@@ -9,7 +9,7 @@ var formElements = {
 	captcha : false
 };
 
-var timer = 1000;
+
 
 for (var x in formElements) {
   // text += person[x];
@@ -32,11 +32,16 @@ function ValidBotBoot(d){
   		return false;
 }
 
+function displayError(id,labelName,className,displayText){
+	$(id).parent().find(labelName).remove();
+	$(id).parent().append('<label class="'+className+'">'+ displayText +'</label>');
+}
+
 function checkcaptcha(id){
 	if($(id).val() == ""){
-		newErrorFunction(id,"gereken");
+		displayError(id,"label.required-field","required-field to-captcha","gereken");
 	} else if(!ValidBotBoot($(id).val())){
-  	newErrorFunction(id,"yanlış Captcha");
+  	displayError(id,"label.required-field","required-field to-captcha","yanlış Captcha");
   } else {
   	$(id).parent().find("label.required-field").remove();
   	return true;
@@ -47,9 +52,13 @@ function checkcaptcha(id){
 function checkTextBoxes(id){
 	if(id.id != 'captcha'){
 		if(($(id).val() == "")){
-			newErrorFunction(id,"gereken");
+			// $(id).parent().find("label.required-field").remove();
+			// $(id).parent().append('<label class="required-field">gereken</label>');
+			displayError(id,"label.required-field","required-field","gereken");
 		} else if(containsNumber($(id).val())){
-			newErrorFunction(id,"sayı içeremez");
+			// $(id).parent().find("label.required-field").remove();
+			// $(id).parent().append('<label class="required-field">sayı içeremez</label>');
+			displayError(id,"label.required-field","required-field","sayı içeremez");
 		} else {
 			$(id).parent().find("label.required-field").remove();
 			return true;
@@ -60,9 +69,13 @@ function checkTextBoxes(id){
 
 function checkEmail(id){
 	if(($(id).val() == "")){
-		newErrorFunction(id,"gereken");
+		// $(id).parent().find("label.required-field").remove();
+		// $(id).parent().append('<label class="required-field">gereken</label>');
+		displayError(id,"label.required-field","required-field","gereken");
 	} else if(!validateEmail($(id).val())){
-  	newErrorFunction(id,"geçersiz e-posta");
+		// $(id).parent().find("label.required-field").remove();
+  	// $(id).parent().append('<label class="required-field">invalid email</label>');
+  	displayError(id,"label.required-field","required-field","geçersiz e-posta");
 	} else {
 		$(id).parent().find("label.required-field").remove();
 		return true;
@@ -70,11 +83,16 @@ function checkEmail(id){
 	return false;
 }
 
-
-
 function checkTextarea(id){
 	if(($(id).val() == "")){
-		newErrorFunction(id,"gereken");
+		// $(id).parent().find("label.required-field").remove();
+		var labelText = $(id).parent().find("label").text();
+		$(id).parent().find("label").text("gereken").fadeOut(2000,'swing',function(){
+			$(this).show();
+			$(this).text(labelText);
+		});
+		 // append('<label class="required-field">gereken</label>');
+		// displayError(id,"label.required-field","required-field","gereken");
 	} else {
 		$(id).parent().find("label.required-field").remove();
 		return true;
@@ -86,10 +104,9 @@ function checkSelect(id){
 	var firstField = $(id).find('option').first().html();
 	console.log($(id).val());
 	if($(id).val() == firstField){
-		$(id).find('option').first().text("gereken");
-		setTimeout(function(){
-			$(id).find('option').first().text(firstField);
-		},timer);
+		// $(id).parent().find("label.required-field.to-select-box").remove();
+		// $(id).parent().append('<label class="required-field to-select-box">gereken</label>');
+		displayError(id,"label.required-field.to-select-box","required-field to-select-box","gereken");
 	} else {
 		$(id).parent().find("label.required-field.to-select-box").remove();
 		return true;
@@ -101,10 +118,8 @@ $("div.text-box input[name='captcha']").blur(function(){
 	checkcaptcha(this);
 });
 
-$("div.text-box input[name='name']").blur(function(){
-	checkTextBoxes(this);
-});
-$("div.text-box input[name='projectname']").blur(function(){
+
+$("div.text-box input[type='text']").blur(function(){
 	checkTextBoxes(this);
 });
 
@@ -121,29 +136,6 @@ $("div.text-box select").on('change',function(){
 });
 
 /////////////////////lib/////////////////////////////
-
-function displayError(id,labelName,className,displayText){
-	$(id).parent().find(labelName).remove();
-	$(id).parent().append('<label class="'+className+'">'+ displayText +'</label>');
-}
-
-function newErrorFunction(id,errorText){
-	if($(id).val() == ""){
-		var labelText = $(id).parent().find("label").text();
-		$(id).parent().find("label").text(errorText);
-		setTimeout(function(){
-			$(id).parent().find("label").text(labelText);
-		},timer);
-	} else {
-		var inputText = $(id).val();
-		$(id).val(errorText);
-		setTimeout(function(){
-			$(id).val(inputText);
-		},timer);
-	}
-	
-}
-
 $("input#captcha").keypress(function (evt){
   evt = (evt) ? evt : window.event;
   var charCode = (evt.which) ? evt.which : evt.keyCode;
