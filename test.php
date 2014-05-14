@@ -11,11 +11,13 @@
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script>
 		$(document).ready(function(){
-			$("#test").submit(function(){
+			
+			$("form#test").submit(function(event){
 				event.preventDefault();
 				alert('hello');
 				return false;
 			});
+
 		});
 	</script>
 </body>
