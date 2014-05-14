@@ -18,7 +18,7 @@ a,a:hover,a:active{
   color: inherit;
 }
 .bg-color01{
-  background-color: rgb(136, 92, 80);
+  background-color: rgb(106, 207, 114);
 }
 
 section#intro-banner{
@@ -57,6 +57,10 @@ ul{
   width: 124px;
   float: left;
   height: 65px;
+  -webkit-transition: border 0.4s ease-in-out 0,color 0.1s ease-in-out 0;
+  -moz-transition: border 0.1s ease-in-out 0,color 0.1s ease-in-out 0;
+  -o-transition: border 0.1s ease-in-out 0,color 0.1s ease-in-out 0;
+  transition: border 0.4s ease-in-out 0,color 0.1s ease-in-out 0;
 }
 .trial-rates{
   overflow: hidden;
@@ -73,6 +77,9 @@ ul{
 .trial-rates:hover{
   border-color: black;
   color: black;
+}
+.trial-rates:hover .rate {
+  border-right: 4px solid black;
 }
 .trial-rates .currency{
   float: right;
@@ -726,3 +733,16 @@ section#content a.link:hover{
   color:orange;
 }
 
+div.text-box label.error_label{
+  /*color: red;*/
+}
+#contact-form .form-control.error_label{
+  border-color: #843534!important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483!important;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483!important;
+}
+#contact-form select.custom-select.error_label{
+  border-color: #843534!important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483!important;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483!important;
+}

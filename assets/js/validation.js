@@ -70,8 +70,6 @@ function checkEmail(id){
 	return false;
 }
 
-
-
 function checkTextarea(id){
 	if(($(id).val() == "")){
 		newErrorFunction(id,"gereken");
@@ -87,8 +85,10 @@ function checkSelect(id){
 	console.log($(id).val());
 	if($(id).val() == firstField){
 		$(id).find('option').first().text("gereken");
+		$(id).addClass('error_label');
 		setTimeout(function(){
 			$(id).find('option').first().text(firstField);
+			$(id).removeClass('error_label');
 		},timer);
 	} else {
 		$(id).parent().find("label.required-field.to-select-box").remove();
@@ -131,14 +131,19 @@ function newErrorFunction(id,errorText){
 	if($(id).val() == ""){
 		var labelText = $(id).parent().find("label").text();
 		$(id).parent().find("label").text(errorText);
+		$(id).parent().find("label").next().addClass("error_label");
+
 		setTimeout(function(){
 			$(id).parent().find("label").text(labelText);
+			$(id).parent().find("label").next().removeClass("error_label");
 		},timer);
 	} else {
 		var inputText = $(id).val();
 		$(id).val(errorText);
+		$(id).addClass("error_label");
 		setTimeout(function(){
 			$(id).val(inputText);
+			$(id).removeClass("error_label");
 		},timer);
 	}
 	

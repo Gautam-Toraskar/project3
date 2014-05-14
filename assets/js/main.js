@@ -36,64 +36,67 @@ $('body#home .nav ul li a, a.down-arrow').click(function(event){
 	return false;
 });
 
-$("#contact-form").submit(function(event){
-	event.preventDefault();
+setTimeout(function(){
+	$("#contact-form").submit(function(event){
+		event.preventDefault();
 
-	// var formdata = new FormData($(this)[0]);
+		// var formdata = new FormData($(this)[0]);
 
-	var formElement1 = checkcaptcha("div.text-box input#captcha");
-	var formElement2 = checkTextBoxes("div.text-box input#name");
-	var formElement3 = checkTextBoxes("div.text-box input#projectname");
-	var formElement4 = checkEmail("div.text-box input#email");
-	var formElement5 = checkTextarea("div.text-box textarea");
-	var formElement6 = checkSelect("div.text-box select#company");
-	var formElement7 = checkSelect("div.text-box select#project");
-	var formElement8 = checkSelect("div.text-box select#platform");
-
-	if(
-		formElement1 &&
-		formElement2 &&
-		formElement3 &&
-		formElement4 &&
-		formElement5 &&
-		formElement6 &&
-		formElement7 &&
-		formElement8
-		){
-		var name = $("#contact-form #name").val();
-		var email = $("#email").val();
-		var project = $("#project").val();
-		var company = $("#company").val();
-		var projectname = $("#projectname").val();
-		var platform = $("#platform").val();
-		var desc = $("#desc").val();
+		
+			var formElement1 = checkcaptcha("div.text-box input#captcha");
+			var formElement2 = checkTextBoxes("div.text-box input#name");
+			var formElement3 = checkTextBoxes("div.text-box input#projectname");
+			var formElement4 = checkEmail("div.text-box input#email");
+			var formElement5 = checkTextarea("div.text-box textarea");
+			var formElement6 = checkSelect("div.text-box select#company");
+			var formElement7 = checkSelect("div.text-box select#project");
+			var formElement8 = checkSelect("div.text-box select#platform");
 
 
+		if(
+			formElement1 &&
+			formElement2 &&
+			formElement3 &&
+			formElement4 &&
+			formElement5 &&
+			formElement6 &&
+			formElement7 &&
+			formElement8
+			){
+			var name = $("#contact-form #name").val();
+			var email = $("#email").val();
+			var project = $("#project").val();
+			var company = $("#company").val();
+			var projectname = $("#projectname").val();
+			var platform = $("#platform").val();
+			var desc = $("#desc").val();
 
-		var mailingString = "name="+name+"&email="+email+"&project="+project+"&projectname="+projectname+"&platform="+platform+"&desc="+desc+"&company="+company;
 
-		// console.log(mailingString);
-		$("#contact-form").hide();
-		$("#contact-spinner").show();
-		$.ajax({   
-		  type:"POST",   
-		  // url: "admin/contactFormSubmit.php",
-		  data: mailingString,
-		  success: function(data) {
-		    console.log(data);
-		    // setTimeout(function(){alert("Hello")}, 3000);
 
-		    setTimeout(function(){
-		    	$("#contact-spinner").hide();
-		    	$(".after-submit").show();
-		    },1000);
-		  }
-		}); 
-	}
+			var mailingString = "name="+name+"&email="+email+"&project="+project+"&projectname="+projectname+"&platform="+platform+"&desc="+desc+"&company="+company;
 
-	return false;
-});
+			// console.log(mailingString);
+			$("#contact-form").hide();
+			$("#contact-spinner").show();
+			$.ajax({   
+			  type:"POST",   
+			  // url: "admin/contactFormSubmit.php",
+			  data: mailingString,
+			  success: function(data) {
+			    console.log(data);
+			    // setTimeout(function(){alert("Hello")}, 3000);
 
+			    setTimeout(function(){
+			    	$("#contact-spinner").hide();
+			    	$(".after-submit").show();
+			    },1000);
+			  }
+			}); 
+		}
+
+		return false;
+	});
+},2000);
 
 $("div.text-box label[for='name']").click(function(){
   if($("div.text-box input#name").val() == ""){
