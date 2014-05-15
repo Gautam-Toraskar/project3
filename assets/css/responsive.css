@@ -46,8 +46,8 @@
 		background-size: 104px;
 	}
 
-	.logo img{
-		width: 120px;
+	.logo img {
+		width: 105px;
 	}
 
 }
@@ -96,19 +96,24 @@
 		float: right;
 	}
 	header{
-		height: 65px;
+		height: 54px;
 	}
 	section#intro-banner {
-		padding-top: 65px;	
+		padding-top: 54px;
 	}
 	.logo-icon {
 		width: 48px;
-		height: 47px;
-		top: 8px;
-		background-size: 86px;
+		height: 40px;
+		top: 4px;
+		background-size: 83px;
 	}
 	.stage-2 p a.helixtech{
 		color: white;
+	}
+	header{
+		/*position: static;*/
+		/*top: inherit;*/
+		/*z-index: inherit;*/
 	}
 }
 
@@ -132,7 +137,7 @@
 		margin: 5px;
 		width: 100%;
 		padding: 10px;
-		max-width: 308px;
+		max-width: 265px;
 	}
 	.trial-rates .rate {
 		width: 100%;

@@ -9,8 +9,58 @@
     <!-- <h1>Hello, world!</h1> -->
 
     <?php require_once('includes/navbar.php'); ?>
+    <nav id="menu" class="mm-menu">
+       <div style="padding-top: 20px;">
+          <ul class="List">
+            <li class="Selected"><a href="#intro-banner">Biz Kimiz</a></li>
+            <li><a href="#services">Biz Ne Yapıyoruz</a></li>
+            <li><a href="#contact">Başlayın</a></li>
+          </ul>
+       </div>
+    </nav>
 
-    <div>
+    <div class="page">
+      <header>
+        <div class="container">
+          <div class="logo">
+            <div class="logo-icon"></div>
+            <img src="assets/img/codfabrik.svg">
+          </div>
+          <style type="text/css">
+            a[href='#menu']{
+              overflow: hidden;
+              height: 31px;
+              width: 31px;
+              margin: 12px 0;
+              float: left;
+            }
+          </style>
+          <a href="#menu"><span class="icon-reorder" style="font-size:30px;color:white;"></span></a>
+
+          <nav class="nav">
+            <div>
+              <ul class="list">
+                <li class="selected">
+                  <a href="#intro-banner">
+                    <h3>Biz Kimiz</h3>
+                  </a>
+                </li>
+                <li>
+                  <a href="#services">
+                    <h3>Biz Ne Yapıyoruz</h3>
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact">
+                    <h3>Başlayın</h3>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+
       <section id="intro-banner" class="center-tringle bg-color01-border bg-color01">
         <div class="container">
           <div class="row" style="margin: 0 auto;">
@@ -23,7 +73,7 @@
                 <li><h4>+ Hızlı yazılım süreci</h4></li>
                 <li><h4>+ App Store’a hazır teslim</h4></li>
               </ul>
-              <div class="trial-rates">
+              <div class="trial-rates" onclick="scrollToDiv('#contact');">
                 <div class="rate">
                   <span class="dollar">$</span>
                   <span class="amt">20</span>

@@ -110,9 +110,7 @@ html.mm-blocking #mm-blocker {
       visibility: hidden; }
 
 .mm-menu .mm-list {
-  padding: 20px 0; 
-  padding-top: 34px!important;
-}
+  padding: 20px 0; }
 .mm-menu > .mm-list {
   padding: 20px 0 40px 0; }
 
@@ -120,8 +118,7 @@ html.mm-blocking #mm-blocker {
   margin-left: -20px;
   margin-right: -20px; }
   .mm-panel > .mm-list:first-child {
-    padding-top: 15px; 
-  }
+    padding-top: 15px; }
 
 .mm-list,
 .mm-list > li {
@@ -259,11 +256,8 @@ html.mm-opened .mm-page {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
 
 .mm-ismenu {
-  background: #FFFFFF;
-  color: rgba(0, 0, 0, 1);
-  font-family: 'proxima-nova',sans-serif,arial;
-  font-weight: bold; 
-}
+  background: #333333;
+  color: rgba(255, 255, 255, 0.6); }
 
 .mm-menu .mm-list > li:after {
   border-color: rgba(0, 0, 0, 0.15); }
