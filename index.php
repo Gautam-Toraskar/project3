@@ -276,8 +276,8 @@
               </div>
           </form>
           <div class="after-submit" style="display:none;">
-            <h3>Thank you for applying.</h3>
-            <p>We will get back to you soon!</p>
+            <h3>Uygulamak için teşekkür ederiz.</h3>
+            <p>Biz yakında size geri alacak!</p>
           </div>  
         </div>
       </section>

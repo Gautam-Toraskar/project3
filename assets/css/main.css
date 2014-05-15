@@ -717,7 +717,7 @@ section#content h2{
 section#content p, section#content ol,section#content ul{
   font-size: 19px;
   font-family: 'lato',sans-serif,arial;
-  font-weight: 300;
+  /*font-weight: 300;*/
   margin-top: 5px;
 }
 section#content ul{

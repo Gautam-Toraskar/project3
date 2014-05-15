@@ -13,41 +13,40 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1>Terms of Service</h1>
+              <h1>Hizmet Şartları</h1>
               <p>
-                Welcome to codfabrik.com If you continue to browse and use this website you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern codfabrik’s relationship with you in relation to this website. 
-                The term “codfabrik” or “us” or “we” refers to the owner of the website whose registered office is verna-goa. The term “you” refers to the user or viewer of our website.
+                Eğer uygun ve birlikte gizlilik politikası ile bu web sitesi ile ilgili sizinle codfabrik ilişkisini yöneten kullanımı aşağıdaki hüküm ve koşullara tabi olması kabul edilir bu siteden ve kullanmaya devam ederseniz codfabrik.com hoşgeldiniz.Terimi "codfabrik" veya "bize" veya "biz" kayıtlı ofis verna-goa olan web sitesinin sahibi anlamına gelir.Terimi, "siz" sitemizin kullanıcı veya izleyiciye gelir.
               </p>
               <h2>
-                The use of this website is subject to the following terms of use:
+                Bu web sitesinin kullanımı, aşağıdaki kullanım şartlarına tabidir:
               </h2>
               <ol>
                 <li>
-                  The content of the pages of this website is for your general information and use only. It is subject to change without notice.
+                  Bu web sitesinin sayfalarının içeriği genel bilgi ve kullanım içindir. Bu haber verilmeksizin değiştirilebilir.
                 </li>
                 <li>
-                  Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and materials found or offered on this website for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law.
+                  Ne biz ne de üçüncü tarafların doğruluğu, güncelliği, performans, tamlığı veya bulunamadı ya da herhangi bir amaç için bu web sitesinde sunulan bilgi ve malzemelerin uygunluğu gibi herhangi bir garanti veya garanti sağlar. Bu tür bilgi ve materyaller yanlışlıklar veya hatalar içerebilir olduğunu kabul ve kanunun açıkça izin verdiği ölçüde bu tür yanlışlıklar veya hatalar için sorumluluk hariç.
                 </li>
                 <li>
-                  Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.
+                  Bu web sitesinde herhangi bir bilgi veya malzeme kullanımının, biz sorumlu tutulamaz hangi, kendi riski tamamen. Bu web sitesi aracılığıyla mevcut herhangi bir ürün, hizmet veya bilgi özel gereksinimlerini karşılamak sağlamak için kendi sorumluluğunda olacaktır.
                 </li>
                 <li>
-                  This website contains material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions.
+                  Bu web sitesi sahibi veya bize lisanslı malzeme içerir. Bu malzeme içerir, ancak, tasarım, düzen, bak, görünüm ve grafik sınırlı değildir. Üreme bu şartlar ve koşullar bölümünü oluşturur telif hakkı bildirimini, uygun dışında yasaktır.
                 </li>
                 <li>
-                  All trademarks reproduced in this website, which are not the property of, or licensed to the operator, are acknowledged on the website.
+                  Malı değil, ya da operatör lisanslı Bu web sitesinde çoğaltılamaz tüm ticari markalar, web sitesinde kabul edilmektedir.
                 </li>
                 <li>
-                  Unauthorized use of this website may give to a claim for damages and/or be a criminal offence.
+                  Bu web sitesinin izinsiz kullanımı tazminat talebi vermek ve / veya bir suç olabilir.
                 </li>
                 <li>
-                  From time to time this website may also include links to other websites. These links are provided for your convenience to provide further information. They do not signify that we endorse the website(s). We have no responsibility for the content of the linked website(s).
+                  Zaman zaman bu web sitesi diğer web sitelerine bağlantılar içerebilir. Bu bağlantılar daha fazla bilgi sağlamak için kolaylık sağlanmıştır. Onlar bizim web sitesi (lar) onaylamaz delalet yoktur. Biz bağlantılı web sitesi (ler) içerik için hiçbir sorumluluk var.
                 </li>
                 <li>
-                  You may not create a link to this website from another website or document without the prior written consent of codfabrik.
+                  Sen codfabrik önceden yazılı izni olmadan başka bir web sitesine veya belgeye bu web sitesine bir bağlantı oluşturmak değil.
                 </li>
                 <li>
-                  Your use of this website and any dispute arising out of such use of the website is subject to the jurisdiction of the Bombay High Court.
+                  Bu web sitesi ve web sitesi bu tür kullanımından kaynaklanan herhangi bir anlaşmazlık kullanımınız Bombay Yüksek Mahkemesi yargı yetkisine tabidir.
                 </li>
               </ol>
             </div>

@@ -13,79 +13,79 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1>Privacy Policy</h1>
+              <h1>Gizlilik Politikası</h1>
               <p>
-                This privacy policy sets out how codfabrik uses and protects any information that you give the owner when you use this website. codfabrik is committed to ensuring that your privacy is protected.<br>
-                Should we ask you to provide certain information by which you can be identified when using this website, then you can be assured that it will only be used in accordance with this privacy statement.
+                Bu gizlilik politikası nasıl codfabrik kullanımlarını ortaya koyar ve bu web sitesini kullandığınızda sahibine vermek herhangi bir bilgi korur. codfabrik gizlilik korunur sağlamaya kararlıdır.<br>
+                Bu web sitesini kullanarak ne zaman tespit edilebileceği bazı bilgileri vermenizi sormalısınız, o zaman sadece bu gizlilik bildirimi uyarınca kullanılacaktır emin olabilirsiniz.
               </p>
               <h2>
-                What we collect
+                Topladığımız Ne
               </h2>
               <p>
-                We may collect the following information:
+                Biz şu bilgileri toplayabiliriz:
               </p>
               <ul>
                 <li>
-                  name and job title
+                  ismi ve iş unvanı
                 </li>
                 <li>
-                  contact information including email address and phone number
+                  e-posta adresi ve telefon numarası dahil olmak üzere iletişim bilgileri
                 </li>
                 <li>
-                  demographic information such as postcode, preferences and interests
+                  gibi posta kodu, tercihleri ​​ve ilgi alanları gibi demografik bilgiler
                 </li>
                 <li>
-                  other information relevant to customer surveys and/or offers
+                  müşteri anketleri ve / veya teklifler ile ilgili diğer bilgiler
                 </li>
               </ul>
 
               <h2>
-                What we do with the information we gather
+                Topladığımız bilgileri ile ne
               </h2>
               <p>
-                We require this information to understand your needs and provide you with a better service, and in particular for the following reasons:
+                Biz ihtiyaçlarınızı anlamak ve daha iyi hizmet sunmak için bu bilgileri gerektiren ve özellikle aşağıdaki nedenlerle:
               </p>
               <ul>
-                <li>Internal record keeping.</li>
-                <li>We may use the information to improve our products and services.</li>
-                <li>We may periodically send promotional emails about new products, special offers or other information which we think you may find interesting using the email address which you have provided.</li>
-                <li>From time to time, we may also use your information to contact you for market research purposes. We may contact you by email, phone, fax or mail. We may use the information to customize the website according to your interests.</li>
+                <li>Dahili kayıt tutma.</li>
+                <li>Biz ürünlerimizi ve hizmetlerimizi geliştirmek için kullanabiliriz.</li>
+                <li>Biz düzenli aralıklarla size sağladığınız e-posta adresini kullanarak ilginç bulabilirsiniz düşünüyorum yeni ürünler, özel teklifler veya diğer bilgiler hakkında tanıtım e-postalar gönderebilir.</li>
+                <li>Zaman zaman, biz de pazar araştırması amacıyla sizinle irtibata geçmek için kullanabiliriz. Biz e-posta, telefon, faks veya posta yoluyla temasa geçebilirsiniz. Biz sizin menfaatinize göre web özelleştirmek için kullanabiliriz.</li>
               </ul>
-              <h2>Security</h2>
+              <h2>güvenlik</h2>
               <p>
-                We are committed to ensuring that your information is secure. In order to prevent unauthorized access or disclosure, we have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information we collect online.
+                Biz bilgileri güvenli sağlamak için kararlıyız. Yetkisiz erişim ve bilgilerin açıklanmasını önlemek için, biz çevrimiçi topladığımız bilgileri korumak ve güvence altına almak için bir yerde uygun fiziksel, elektronik ve yönetimsel prosedürleri koyduk.
               </p>
 
               <h2>
-                How we use cookies
+                Nasıl biz kullanma aşçı
               </h2>
               <p>
-                A cookie is a small file which asks permission to be placed on your computer's hard drive. Once you agree, the file is added and the cookie helps analyse web traffic or lets you know when you visit a particular site. Cookies allow web applications to respond to you as an individual. The web application can tailor its operations to your needs, likes and dislikes by gathering and remembering information about your preferences. We use traffic log cookies to identify which pages are being used. This helps us analyse data about web page traffic and improve our website in order to tailor it to customer needs. We only use this information for statistical analysis purposes and then the data is removed from the system. Overall cookies help us provide you with a better website, by enabling us to monitor which pages you find useful and which you do not. A cookie in no way gives us access to your computer or any information about you, other than the data you choose to share with us. You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. This may prevent you from taking full advantage of the website.
+                Cookie bilgisayarınızın sabit diskinde yer için izin isteyen küçük bir dosyadır . Eğer kabul kere ,dosya eklenir vecookie web trafiğini analiz yardımcı olur ya da belirli bir siteyi ziyaret ettiğinizde size haber verir . Cookies, web uygulamalarının bir birey olarak size yanıt verir. Web uygulama ihtiyaçlarınıza faaliyetlerini terzi , sever ve tercihleri ​​hakkında bilgi toplayarak ve hatırlayarak hoşlanmamaktadır. Biz sayfaları kullanılmakta olduğunu belirlemek için trafik günlük çerezleri kullanabiliriz . Bu bize web sayfası trafiği hakkında veri analizi ve müşteri ihtiyaçlarına göre uyarlanmasına için sitemizi artırmaya yardımcı olur . Biz sadece istatistiksel analiz amaçlar için bu bilgileri kullanmak ve daha sonraverisistemden kaldırılır . Genel tanımlama bize sen değil yararlı ve hangi bulmak hangi sayfaları izlemek için bizi sağlayarak , daha iyi bir web sitesi size yardımcı olur. Hiçbir şekilde bir cookie bize bilgisayarınızın ya da bizimle paylaşmayı tercihverileri dışında sizinle ilgili hiçbir bilgi , erişim sağlar . Çerezleri kabul veya reddetmek için seçebilirsiniz . Çoğu web tarayıcısı tanımlama bilgilerini otomatik olarak kabul eder, ancak genellikle isterseniz çerezleri reddetmek için tarayıcı ayar değiştirebilirsiniz . Buweb sitesinin tam yararlanarak engelleyebilir .
               </p>
 
               <h2>
-                Links to other websites
+                Diğer web sitelerine bağlantılar
               </h2>
               <p>
-                Our website may contain links to other websites of interest. However, once you have used these links to leave our site, you should note that we do not have any control over that other website. Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst visiting such sites and such sites are not governed by this privacy statement. You should exercise caution and look at the privacy statement applicable to the website in question.
+                Web sitemiz ilgili diğer web sitelerine bağlantılar içerebilir. Eğer sitemize bırakmak bu bağlantıları kullandık Ancak, bir kez biz diğer web üzerinde herhangi bir kontrol yok dikkat etmelisiniz. Bu nedenle, bu tür siteler ve bu sitelerin ziyaret ederken verdiğiniz bilgilerin korunması ve gizlilik sorumlu olamaz, bu gizlilik bildirimi tabi değildir. Sen dikkatli ve söz konusu web sitesi için geçerli gizlilik bildirimi bakmak gerekir.
               </p>
 
-              <h2>Controlling your personal information</h2>
+              <h2>Kişisel bilgilerinizi kontrol</h2>
               <p>
-                You may choose to restrict the collection or use of your personal information in the following ways:
+                Sen aşağıdaki şekillerde kişisel bilgilerin toplama veya kullanımını kısıtlamak için seçebilirsiniz:
               </p>
               <ul>
-                <li>Whenever you are asked to fill in a form on the website, look for the box that you can click to indicate that you do not want the information to be used by anybody for direct marketing purposes</li>
-                <li>If you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time by writing to or emailing us at <strong> <a class="link" href="mailto:contact@helixtech.co">contact@helixtech.co</a> </strong> </li>
+                <li>Eğer web sitesinde bir form doldurmanız istenir zaman, size bilgi için doğrudan pazarlama amaçlı herkes tarafından kullanılacak istemediğiniz belirtmek için tıklayın olabilir kutusunu aramak</li>
+                <li>Daha önce doğrudan pazarlama amaçları için kişisel bilgilerinizi kullanarak bize kabul varsa, yazma ya da bize e-posta göndererek her zaman fikrinizi değiştirebilir<strong> <a class="link" href="mailto:contact@helixtech.co">contact@helixtech.co</a> </strong> </li>
               </ul>
               <p>
-                We will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law to do so. We may use your personal information to send you promotional information about third parties which we think you may find interesting if you tell us that you wish this to happen. 
+                Sizin izniniz ya da bunun için yasa gerekli olmadıkça üçüncü şahıslara kişisel bilgilerinizi, satmak, dağıtmak veya kiralamak olmaz. Eğer bunun olmasını istediğiniz bize eğer biz size ilginç bulabilirsiniz düşünüyorum üçüncü şahıslar hakkında tanıtım bilgileri göndermek için, kişisel bilgilerinizi kullanabilir.
               </p>
               <p>
-                You may request details of personal information which we hold about you under the Data Protection Act 1998. A small fee will be payable. If you would like a copy of the information held on you please write to contact@helixtech.co.
+                Sen bizim Veri Koruma Yasası 1998 altında sizin hakkınızda tuttuğumuz kişisel bilgilerin detaylarını isteyebilir. Küçük bir ücret ödenecektir. Size yapılan bilgilerin bir kopyasını isterseniz yazınız<strong> <a class="link" href="mailto:contact@helixtech.co">contact@helixtech.co</a> </strong>.
               </p>
               <p>
-                If you believe that any information we are holding on you is incorrect or incomplete, please write to or email us as soon as possible, at the above address. We will promptly correct any information found to be incorrect.
+                Biz sizin üzerinde tutarak herhangi bir bilginin yanlış veya eksik olduğunu düşünüyorsanız, yazınız veya yukarıdaki adresten, en kısa sürede bize e-posta. Biz derhal yanlış tespit herhangi bir bilgi düzeltecektir.
               </p>
             </div>
           </div>
