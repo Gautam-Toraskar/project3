@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="tr">
   <head>
-    <title>Home | codfabrik</title>
+    <title>Best mobile app developers of India in turkey</title>
     <?php require_once('includes/header.php'); ?>
     
   </head>
@@ -86,7 +86,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 iphone">
+            <div class="col-md-6 iphone bouncy-caret">
               <img src="assets/img/iphone.png">
             </div>
           </div>
@@ -156,8 +156,8 @@
             </div>
           </div>
           <!-- <a class="down-arrow bouncy-caret" href="#contact" > -->
-  <!--           <i class="glyphicon glyphicon-chevron-down"></i> -->
-          </a>
+            <!-- <i class="glyphicon glyphicon-chevron-down"></i> -->
+          <!-- </a> -->
         </div>
         <!-- <div class="center-triangle-div bg-color02-border"></div> -->
       </section>
@@ -276,8 +276,8 @@
               </div>
           </form>
           <div class="after-submit" style="display:none;">
-            <h3>Uygulamak için teşekkür ederiz.</h3>
-            <p>Biz yakında size geri alacak!</p>
+            <h3>Formunuz başarıyla teslim edilmiştir</h3>
+            <p>Sen kısa bir cevap alırsınız</p>
           </div>  
         </div>
       </section>

@@ -566,13 +566,11 @@ footer .icon-facebook:hover{
   /* line 169, ../../app/styles/main.scss */
   from {
     top: 0;
-    opacity: 0.6;
   }
 
   /* line 172, ../../app/styles/main.scss */
   to {
     top: -10px;
-    opacity: 1;
   }
 }
 
@@ -580,26 +578,22 @@ footer .icon-facebook:hover{
   /* line 178, ../../app/styles/main.scss */
   from {
     top: 0;
-    opacity: 0.6;
   }
 
   /* line 181, ../../app/styles/main.scss */
   to {
     top: -10px;
-    opacity: 1;
   }
 }
 @keyframes arrowBounce {
   /* line 169, ../../app/styles/main.scss */
   from {
     top: 0;
-    opacity: 0.6;
   }
 
   /* line 172, ../../app/styles/main.scss */
   to {
     top: -10px;
-    opacity: 1;
   }
 }
 .down-arrow{
