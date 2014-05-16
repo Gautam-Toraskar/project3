@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="tr">
   <head>
-    <title>Best mobile app developers of India in turkey</title>
+    <title>Türkiye'de Hindistan'ın en iyi mobil uygulama geliştiricileri</title>
     <?php require_once('includes/header.php'); ?>
-    
   </head>
   <body id="home">
     <!-- <h1>Hello, world!</h1> -->
