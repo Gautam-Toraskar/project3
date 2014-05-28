@@ -138,16 +138,17 @@
 		width: 100%;
 		padding: 10px;
 		max-width: 265px;
+		min-width: 255px;
 	}
 	.trial-rates .rate {
 		width: 100%;
-		max-width: 90px;
+		max-width: 80px;
 	}
 	.trial-rates .rate .dollar {
 		font-size: 23px;
 	}
 	.trial-rates .rate .amt {
-		font-size: 50px;
+		font-size: 45px;
 	}
 	.trial-rates .currency {
 		float: right;

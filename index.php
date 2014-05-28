@@ -8,6 +8,7 @@
     <!-- <h1>Hello, world!</h1> -->
 
     <?php require_once('includes/navbar.php'); ?>
+
     <nav id="menu" class="mm-menu">
        <div style="padding-top: 20px;">
           <ul class="List">
@@ -20,7 +21,7 @@
 
     <div class="page">
       <header>
-        <div class="container">
+        <div class="container-smooth">
           <div class="logo">
             <div class="logo-icon"></div>
             <img src="assets/img/codfabrik.svg">
@@ -46,7 +47,7 @@
                 </li>
                 <li>
                   <a href="#services">
-                    <h3>Biz Ne Yapıyoruz</h3>
+                    <h3>Ne Sunuyoruz</h3>
                   </a>
                 </li>
                 <li>
@@ -188,25 +189,25 @@
                   <select id="project" class="custom-select">
                     <option>Projenizi Nasıl Tanımlarsınız ?</option>
                     <option>Oyunlar</option>
-                    <option>eğlence</option>
-                    <option>kamu hizmetleri</option>
-                    <option>sosyal Ağ</option>
-                    <option>müzik</option>
-                    <option>verimlilik</option>
+                    <option>Eğlence</option>
+                    <option>Kamu hizmetleri</option>
+                    <option>Sosyal Ağ</option>
+                    <option>Müzik</option>
+                    <option>Verimlilik</option>
                     <option>Yaşam</option>
-                    <option>referans</option>
-                    <option>seyahat</option>
-                    <option>spor</option>
-                    <option>navigasyon</option>
+                    <option>Referans</option>
+                    <option>Seyahat</option>
+                    <option>Spor</option>
+                    <option>Navigasyon</option>
                     <option>Sağlık ve Fitness</option>
-                    <option>haber</option>
-                    <option>fotoğrafçılık</option>
-                    <option>maliye</option>
-                    <option>iş</option>
-                    <option>eğitim</option>
-                    <option>hava durumu</option>
+                    <option>Haber</option>
+                    <option>Fotoğrafçılık</option>
+                    <option>Maliye</option>
+                    <option>Iş</option>
+                    <option>Eğitim</option>
+                    <option>Hava durumu</option>
                     <option>Kitaplar</option>
-                    <option>tıbbi</option>
+                    <option>Tıbbi</option>
                   </select>
                 </div>
               </div>
@@ -219,6 +220,7 @@
                   position: relative;
                 }
                 div.text-box label{
+                  font-family: 'Lato',sans-serif;
                   position: absolute;
                   top: 0;
                   left: 0;
@@ -229,7 +231,7 @@
                   height: 100%;
                   text-align: left;
                   font-size: 17px;
-                  cursor: pointer;
+                  /*cursor: pointer;*/
                 }
               </style>
               <div class="col-md-5  col-sm-5 pull-right" >

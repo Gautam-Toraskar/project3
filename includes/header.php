@@ -12,6 +12,12 @@
 <link rel="stylesheet" type="text/css" href="assets/fonts/GothamNarrow-Book/style.css">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Open+Sans Condensed:300italic,300,700" rel="stylesheet" type="text/css">
+<!-- <link href="//fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css"> -->
+
+<!-- <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'> -->
+<link rel="stylesheet" type="text/css" href="assets/fonts/lato-turkish-font/stylesheet.css">
+
+
 <script type="text/javascript" src="assets/fonts/proxima-nova.js"></script>
 <link rel="stylesheet" type="text/css" href="assets/fonts/proxima-nova.css"/>
 <link rel="stylesheet" type="text/css" href="assets/fonts/Avenir-LT-W01-45-Book/avenir-LT.css">

@@ -18,9 +18,9 @@ function fitBanner(id,offset){
 	// });
 }
 
-// fitBanner("#intro-banner",0);
-// fitBanner('#services',0);
-// fitBanner('#contact',0);
+fitBanner("#intro-banner",0);
+fitBanner('#services',0);
+fitBanner('#contact',0);
 
 $("#contact-spinner").hide();
 $("#contact-form").show();
