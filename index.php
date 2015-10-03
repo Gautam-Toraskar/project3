@@ -2,12 +2,40 @@
 <html lang="tr">
   <head>
     <title>Türkiye'de Hindistan'ın en iyi mobil uygulama geliştiricileri</title>
-    <?php require_once('includes/header.php'); ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <META HTTP-EQUIV="Content-language" CONTENT="tr">
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="assets/css/animation.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/fonts/LatoTR-Bold/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/LatoTR-Black/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/LatoTR-Hairline/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/LatoTR-Light/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/LatoTR-Regular/styles.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/packages/font-awesome/assets/css/font-awesome-ie7.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/packages/font-awesome/assets/css/admin/editor_styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/packages/mm-navbar/jquery.mmenu.all.css"/>
+
+    <script type="text/javascript" src="assets/packages/font-awesome/assets/js/font-awesome.js"></script>
+    <link rel="stylesheet" href="assets/fonts/futura-light/stylesheet.css">
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50791590-1', 'codfabrik.com');
+      ga('send', 'pageview');
+    </script>
   </head>
   <body id="home">
-    <!-- <h1>Hello, world!</h1> -->
-    <?php require_once('includes/navbar.php'); ?>
-
     <nav id="menu" class="mm-menu">
        <div style="padding-top: 20px;">
           <ul class="List">
@@ -262,7 +290,62 @@
         </div>
       </section>
 
-      <?php require_once('includes/footer.php'); ?>
+      <footer>  
+        <div class="footer-container">
+          <div class="container">
+            <div class="row stage-2">
+              <div class="social-div">
+                <h3 class="prox txtgreen">Iletisim</h3>
+                <h5> <a class="proxlight" href="mailto:mert@codfabrik.com"><i class="icon-envelope-alt"></i> mert@codfabrik.com</a> </h5>
+                <a href="https://www.facebook.com/codfabrik" target="_blank" style="margin-top: 27px;overflow:hidden;">
+                  <span class="icon-facebook"></span>
+                </a>
+                <div class="fb-like-share">
+                  <div id="fb-root"></div>
+                  <script>(function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+                    fjs.parentNode.insertBefore(js, fjs);
+                  }(document, 'script', 'facebook-jssdk'));</script>
+                  <div class="fb-like" data-href="https://facebook.com/codfabrik" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+                </div>
+                
+                <div class="twitter">
+                  <a href="https://twitter.com/codfabrik" target="_blank" style="margin-top: 27px;margin-right: 4px;overflow:hidden;">
+                    <span class="icon-twitter" ></span>
+                  </a>
+                  
+                  <div class="tw-tweet">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.codfabrik.com" data-text="codfabrik" data-via="codfabrik" data-count="none">Tweet</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                  </div>
+                  <div class="tw-follow">
+                    <a href="https://twitter.com/codfabrik" class="twitter-follow-button" data-show-count="false">Follow @codfabrik</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                  </div>
+                </div>
+
+                <div class="row reserved-text">
+                  <div class="col-md-6">
+                    <p>&copy; 2014 Codfabik. All rights reserved. 
+                      <a rel="external" href="TermsOfServices.php" target="_blank"> <br class="tablet-show"> Terms of Use </a>and <a target="_blank" href="PrivacyPolicy.php">Privacy Policy</a> 
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <p class="text-right">
+                     Codfabrik is a mobile solutions platform <br class="tablet-show"> powered by <a class="pull-right helixtech" target="_blank" href="http://helixtech.co" >
+                      Helix Tech
+                    </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
