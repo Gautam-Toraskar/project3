@@ -6,14 +6,13 @@
   </head>
   <body id="home">
     <!-- <h1>Hello, world!</h1> -->
-
     <?php require_once('includes/navbar.php'); ?>
 
     <nav id="menu" class="mm-menu">
        <div style="padding-top: 20px;">
           <ul class="List">
             <li class="Selected"><a href="#intro-banner">Biz Kimiz</a></li>
-            <li><a href="#services">Biz Ne Yapıyoruz</a></li>
+            <li><a href="#services">Ne Sunuyoruz</a></li>
             <li><a href="#contact">Başlayın</a></li>
           </ul>
        </div>
@@ -21,7 +20,7 @@
 
     <div class="page">
       <header>
-        <div class="container-smooth">
+        <div class="container">
           <div class="logo">
             <div class="logo-icon"></div>
             <img src="assets/img/codfabrik.svg">
@@ -155,9 +154,9 @@
               </p>
             </div>
           </div>
-          <!-- <a class="down-arrow bouncy-caret" href="#contact" > -->
-            <!-- <i class="glyphicon glyphicon-chevron-down"></i> -->
-          <!-- </a> -->
+<!--           <a class="down-arrow bouncy-caret" href="#contact" >
+            <i class="glyphicon glyphicon-chevron-down"></i>
+          </a> -->
         </div>
         <!-- <div class="center-triangle-div bg-color02-border"></div> -->
       </section>
@@ -212,27 +211,7 @@
                 </div>
               </div>
               <style type="text/css">
-                select.custom-select option{
-                  background-color: #fff;
-                  color: #1abc9c;
-                }
-                div.text-box{
-                  position: relative;
-                }
-                div.text-box label{
-                  font-family: 'Lato',sans-serif;
-                  position: absolute;
-                  top: 0;
-                  left: 0;
-                  padding: 12px 17px;
-                  color: white;
-                  font-weight: normal;
-                  width: 100%;
-                  height: 100%;
-                  text-align: left;
-                  font-size: 17px;
-                  /*cursor: pointer;*/
-                }
+
               </style>
               <div class="col-md-5  col-sm-5 pull-right" >
                 <div class="text-box">
@@ -268,7 +247,7 @@
             <div class="col-md-3 pull-left" style="padding:0;">
               <div class="text-box">
                 <label for="captcha" style="padding: 18px 17px;"></label>
-                <input id="captcha" class="form-control" name="captcha" type="text" style='height:59px;'/>
+                <input id="captcha" class="form-control" name="captcha" type="text"/>
               </div>
             </div>
               <!-- <button type="submit" name="submit" class="contact-submit">START</button> -->

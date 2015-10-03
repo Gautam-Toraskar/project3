@@ -1,0 +1,8 @@
+
+@font-face {
+	font-family: 'LatoTR-Hairline';
+	src: url('LatoTR-Hairline.eot?') format('eot'), 
+	     url('LatoTR-Hairline.woff') format('woff'), 
+	     url('LatoTR-Hairline.ttf')  format('truetype'),
+	     url('LatoTR-Hairline.svg#LatoTR-Hairline') format('svg');
+}

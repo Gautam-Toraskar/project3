@@ -1,0 +1,8 @@
+
+@font-face {
+	font-family: 'LatoTR-Black';
+	src: url('LatoTR-Black.eot?') format('eot'), 
+	     url('LatoTR-Black.woff') format('woff'), 
+	     url('LatoTR-Black.ttf')  format('truetype'),
+	     url('LatoTR-Black.svg#LatoTR-Black') format('svg');
+}

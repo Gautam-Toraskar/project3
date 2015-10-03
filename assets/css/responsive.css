@@ -1,3 +1,191 @@
+@media only screen and (min-width: 2121px) and (max-width: 2800px){
+	header{
+		zoom:2;
+	}
+	section#intro-banner div.container{
+		zoom:2;
+		margin-top: 72px;
+	}
+	section#services div.container{
+		zoom:2;
+		margin-top: 30px;
+	}
+	section#contact .container {
+		zoom: 2;
+		margin-top: 30px;
+	}
+	.footer-container{
+		zoom:2;
+	}
+	.fb-like-share,.tw-tweet,.tw-follow
+	{
+		transform: scale(1.8);
+		-ms-transform: scale(1.8); 
+		-webkit-transform: scale(1.8); 
+		-o-transform: scale(1.8); 
+		-moz-transform: scale(1.8); 
+		transform-origin: bottom left;
+		-ms-transform-origin: bottom left;
+		-webkit-transform-origin: bottom left;
+		-moz-transform-origin: bottom left;
+		-webkit-transform-origin: bottom left;
+		height: 12px;
+		overflow: hidden;
+	}
+}
+@media only screen and (min-width: 1700px) and (max-width: 2120px){
+	.container{
+		/*zoom : 1.6;*/
+	}
+
+	.container{
+		max-width: 1550px;
+	}
+	.logo img {
+		width: 255px;
+	}
+	.logo-icon {
+		width: 103px;
+		height: 82px;
+		background-size: 160px;
+	}
+	.nav ul li a h3 {
+		font-size: 35px;
+	}
+	.nav ul {
+		margin: 37px 0;
+	}
+	header {
+		height: 110px;
+	}
+	#intro-banner img {
+		width: 370px;
+		padding-top: 20px;
+	}
+	section#intro-banner h1 {
+		font-size: 70px;
+		margin-top: 80px;
+	}
+	section#intro-banner h2 {
+		font-size: 40px;
+	}
+	h4, .h4 {
+		font-size: 24px;
+	}
+	.trial-rates .rate {
+		width: 174px;
+		height: 96px;
+	}
+	.trial-rates .rate .dollar {
+		font-size: 50px;
+		bottom: 43px;
+	}
+	.trial-rates .rate .amt {
+		font-size: 102px;
+		line-height: 102px;
+	}
+	h3, .h3 {
+		font-size: 34px;
+	}
+	.trial-rates{
+		margin-top: 20px;
+		border-radius: 20px;
+		border-width: 5px;
+	}
+	section h2{
+		margin-top: 55px;
+		font-size: 55px;
+	}
+	#services .service-block .service-icon {
+		width: 100px;
+		height: 100px;
+		background-size: 360px;
+	}
+	.service-2 {
+		background-position: -130px -6px;
+	}
+	.service-3 {
+		background-position: -257px -6px;
+	}
+	.service-4 {
+		background-position: 0px -126px;
+	}
+	.service-5 {
+		background-position: -127px -126px;
+	}
+	.service-6 {
+		background-position: -259px -126px;
+	}
+	.service-icon + h3 {
+		font-size: 37px;
+	}
+	.service-icon + h3 + p {
+		font-size: 20px;
+	}
+	.service-block {	
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	#contact-form .form-control, #contact-form select.custom-select {
+		margin-bottom: 20px;
+		font-size: 25px;
+		height: 55px;
+		border-radius: 10px;
+		border: 3px solid white!important;
+	}
+	#contact-form  div.text-box label {
+		font-size: 25px;
+	}
+	#contact-form .custome-textarea {
+		height: 250px;
+	}
+	#contact-form input[type="submit"] {
+		border-radius: 10px;
+		border-width: 3px;
+		height: 80px;
+		font-size: 40px;
+	}
+	#contact-form input#captcha{
+		height: 80px;
+	}
+	.stage-2 h5 a {
+		font-size: 18px;
+	}
+	.prox {
+		font-size: 25px;
+	}
+	div.row.stage-2 .social-div h5{
+		margin: 20px 0;
+	}
+	.fb-like-share,.tw-tweet,.tw-follow
+	{
+		transform: scale(1.5);
+		-ms-transform: scale(1.5); 
+		-webkit-transform: scale(1.5); 
+		-o-transform: scale(1.5); 
+		-moz-transform: scale(1.5); 
+		transform-origin: bottom left;
+		-ms-transform-origin: bottom left;
+		-webkit-transform-origin: bottom left;
+		-moz-transform-origin: bottom left;
+		-webkit-transform-origin: bottom left;
+		width: 125px;
+	}
+	span.icon-facebook,span.icon-twitter{
+		font-size: 41px;
+	}
+	div.tw-follow{
+		position: relative;
+		right: 33px;
+	}
+	.stage-2 p{
+		font-size: 21px;
+	}
+	.stage-2 p a.helixtech {
+		line-height: 75px;
+		font-size: 30px;
+	}
+}
 @media only screen and (min-width:	1199px){
 	.tablet-show{
 		display: none;
@@ -12,7 +200,7 @@
 		margin-bottom: 20px;
 	}
 	.stage-2 p a.helixtech{
-		line-height: 18px;
+		line-height: 22px;
 	}
 	.stage-2 p{
 		line-height: 25px;
@@ -82,6 +270,7 @@
 	}
 	#contact-form .pull-right{
 		float: none!important;
+		clear: both;
 	}
 	.nav{
 		display: none;

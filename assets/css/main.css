@@ -1,5 +1,10 @@
 /*@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic);*/
 
+.container-smooth{
+  max-width: 1170px;
+  margin: auto;
+}
+
 header{
   width: 100%;
   height: 85px;
@@ -32,7 +37,7 @@ section#intro-banner h1{
   font-size: 50px;
   /*margin-top: 40px;*/
   /*font-family: 'proxima-nova';*/
-  font-family: 'Lato',sans-serif;
+  font-family: 'LatoTR-Bold',sans-serif;
   font-weight: 600;
 }
 ul{
@@ -90,6 +95,7 @@ ul{
 }
 .trial-rates .currency h3{
   margin: 7px 6px;
+  font-family: 'LatoTR-Regular';
 }
 /*.center-tringle:after{
   display: block;
@@ -215,7 +221,8 @@ div.text-box label{
   border-radius: 0;
   /* border-width: 2px; */
   color: #ccadb6;
-  font-family: 'Open Sans Condensed' !important,'open sans',arial;
+  /*font-family: 'Open Sans Condensed' !important,'open sans',arial;*/
+  font-family: 'LatoTR-Light'!important;
   font-size: 18px;
   padding: 3px 12px;
   height: 40px;
@@ -227,6 +234,30 @@ div.text-box label{
   color: white;
 
 }
+select.custom-select option{
+  background-color: #fff;
+  color: #1abc9c;
+}
+
+div.text-box{
+  position: relative;
+}
+
+div.text-box label{
+  font-family: 'LatoTR-Light';
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 12px 17px;
+  color: white;
+  font-weight: normal;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  font-size: 17px;
+  /*cursor: pointer;*/
+}
+
 /*input::-webkit-input-placeholder {
    color: #ccadb6;
 }*/
@@ -274,7 +305,7 @@ input:-moz-placeholder {
   background: transparent url(../img/arrow-down.png) 95% center no-repeat!important;
   height: 50px;
   margin-bottom: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'latomedium',sans-serif;
   font-size: 18px;
   color: #9C9C9C;
   color: white;
@@ -324,27 +355,30 @@ section h2{
   margin-top: 50px;
   margin-bottom: 19px;
   font-size: 40px;
-  /*font-family: 'proxima-nova'!important;*/
-  font-family: 'Lato',sans-serif!important;
+  font-family: 'LatoTR-Bold'!important;
   font-weight: 800!important;
 }
 section#intro-banner h2{
   font-size: 30px;
   margin: 20px 0 10px 0;
+  font-family: 'LatoTR-Regular',sans-serif !important;
 }
 .service-icon + h3{
   font-size: 27px;
+  font-family: 'LatoTR-Regular';
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
-  font-family: 'latohairline',sans-serif!important;
+  font-family: 'LatoTR-Regular';
 }
 .service-icon + h3 + p {
 color: #9C9C9C;
-font-family: 'lato',sans-serif;
-font-weight: bold;
+font-family: 'LatoTR-Regular';
+/*font-weight: bold;*/
 font-size: 15px;
 }
-
+ul.banner-ul li h4{
+  font-family: 'LatoTR-Light';
+}
 .logo{
   float: left;
   overflow: hidden;
@@ -402,6 +436,7 @@ font-size: 15px;
   -moz-transition: color 0.3s ease-in-out;
   -ms-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
+  font-family: 'LatoTR-Lighter',sans-serif;
 }
 .nav ul li:last-child{
   border-right: none;
@@ -481,7 +516,7 @@ footer .icon-facebook:hover{
 }
 
 .prox {
-  font-family: "proxima-nova",sans-serif;
+  font-family: 'LatoTR-Bold';
   font-style: normal;
   font-weight: 700 !important;
   font-size: 18px;
@@ -496,7 +531,7 @@ footer .icon-facebook:hover{
   color: #fff;
 }
 .proxlight {
-  font-family: 'proxima_novalight',sans-serif;
+  font-family: 'LatoTR-Light';
   font-style: normal;
   font-weight: 100;
 }
@@ -507,7 +542,7 @@ footer .icon-facebook:hover{
   font-weight: 300;
   line-height: 75.19999694824219px;
   /*font-family: 'proxima_novalight',sans-serif;*/
-  font-family: 'Lato',sans-serif;
+  font-family: 'LatoTR-Light';
   /*font-family: 'ProximaNova-Light'*/
   color: rgba(255, 255, 255, 0.6);
 }
@@ -524,8 +559,8 @@ footer .icon-facebook:hover{
   -moz-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease;
-  font-family: 'lato',sans-serif;
-  line-height: 71px;
+  font-family: 'LatoTR-Regular';
+  line-height: 74px;
   font-weight: 300;
   font-weight: bold;
   font-size: 20px;
@@ -549,7 +584,7 @@ footer .icon-facebook:hover{
   margin: 130px 0px;
 }
 .after-submit h3{
-  font-family: 'proxima-nova';
+  font-family: "LatoTR-Bold",sans-serif !important;
   font-size: 35px;
   color: white;
   transition : all 0.3s ease-in-out;
@@ -559,7 +594,7 @@ footer .icon-facebook:hover{
   -o-transition : all 0.3s ease-in-out;
 }
 .after-submit p{
-  font-family: 'lato',sans-serif;
+  font-family: "LatoTR-Regular",sans-serif !important;
   font-size: 20px;
   color: white;
   transition : all 0.3s ease-in-out 1s;
@@ -653,7 +688,7 @@ footer .icon-facebook:hover{
 .fb-like-share{
   display: inline-block;
   position: relative;
-  bottom: 5px;
+  bottom: 0px;
   right: 9px;
 }
 .twitter{
@@ -678,13 +713,15 @@ footer .icon-facebook:hover{
   -moz-transition: border 0.1s ease-in-out 0,color 0.1s ease-in-out 0;
   -o-transition: border 0.1s ease-in-out 0,color 0.1s ease-in-out 0;
   transition: border 0.4s ease-in-out 0,color 0.1s ease-in-out 0;
-  font-family: 'Lato',sans-serif;
+  font-family: 'Latoheavy',sans-serif;
 }
 #contact-form input[type="submit"]:hover{
   color: black;
   border-color: black;
 }
-
+#contact-form input#captcha{
+  height: 57px;
+}
 /*error css classes*/
 div.text-box label.required-field{
   width: auto;
@@ -750,4 +787,8 @@ div.text-box label.error_label{
   border-color: #843534!important;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483!important;
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483!important;
+}
+
+input#captcha{
+  height: 60px;
 }

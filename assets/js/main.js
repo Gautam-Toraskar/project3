@@ -1,24 +1,23 @@
 function fitBanner(id,offset){
 	var originalHeight = $(id).height();
-	// console.log("width of "+id+": "+originalHeight);
+	console.log("width of "+id+": "+originalHeight);
 	var windowHeight = $(window).height();
 	var headerHeight = $("header").height();
 	// alert($(".center-triangle-div").height());
 	var triangleHeight = 30; //height of the triangle
 
 	windowHeight = windowHeight - offset;
-	
 
 	if(windowHeight > originalHeight){
 		$(id).css({ "min-height": windowHeight+"px" });
 	}
-	// $(window).resize(function() {      
+	// $(window).resize(function() {
 	//   hi = $(window).height();
 	//   $(id).css({ height: hi+"px" });
 	// });
 }
 
-fitBanner("#intro-banner",0);
+fitBanner("#hero",0);
 fitBanner('#services',0);
 fitBanner('#contact',0);
 
@@ -28,7 +27,7 @@ $(".after-submit").hide();
 
 function scrollToDiv(id){
   $('html,body').animate({scrollTop: $(id).offset().top - 50},500,"swing");
-   return false;
+  return false;
 }
 
 $('body#home .nav ul li a, a.down-arrow').click(function(event){
@@ -98,6 +97,33 @@ $('body#home .nav ul li a, a.down-arrow').click(function(event){
 		return false;
 	});
 // },2000);
+$("#name").focus(function(){
+  if($("div.text-box input#name").val() == ""){
+    $("div.text-box label[for='name']").hide();
+  }
+});
+
+$("#desc").focus(function(){
+  if($("div.text-box>textarea#desc").val() == ""){
+    $("div.text-box label[for='desc']").hide();
+  }
+});
+
+$("#email").focus(function(){
+  if($("div.text-box input#email").val() == ""){
+    $("div.text-box label[for='email']").hide();
+  }
+});
+$("#projectname").focus(function(){
+  if($("div.text-box input#projectname").val() == ""){
+    $("div.text-box label[for='projectname']").hide();
+  }
+});
+$("#captcha").focus(function(){
+  if($("div.text-box input#captcha").val() == ""){
+    $("div.text-box label[for='captcha']").hide();
+  }
+});///////////////////////////////////////////////////////////
 
 $("div.text-box label[for='name']").click(function(){
   if($("div.text-box input#name").val() == ""){
